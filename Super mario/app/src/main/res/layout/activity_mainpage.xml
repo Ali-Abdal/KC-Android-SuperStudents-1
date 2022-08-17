@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#423934 "
+    android:orientation="vertical"
+    tools:context=".Mainpage">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="490dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Dbdoob"
+        android:textColor="#E9C46A"
+        android:textSize="20sp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/idk2"
+        android:layout_width="187dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="494dp"
+        android:src="@drawable/giphybear" />
+
+    <TextView
+        android:id="@+id/txtnoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:textColor="#E9C46A"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnreset"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="109dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="136dp"
+        android:elevation="0dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:onClick="erase"
+        android:text="Reset"
+        android:textColor="#E9C46A" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Dbdoob RPS"
+        android:textColor="#E9C46A"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imgplyer"
+        android:layout_width="150dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="223dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imgAI"
+        android:layout_width="150dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="14dp"
+        android:layout_toEndOf="@+id/imgplyer"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifsplash"
+        android:layout_width="187dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/giphyi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnrock"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E9C46A"
+            android:onClick="Rock"
+            android:text="rock"
+            android:textColor="#423934 " />
+
+        <Button
+            android:id="@+id/btnpaper"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E9C46A"
+            android:onClick="Paper"
+            android:text="paper"
+            android:textColor="#423934 " />
+
+        <Button
+            android:id="@+id/btnscissors"
+            android:layout_width="100dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="#E9C46A"
+            android:onClick="Scissors"
+            android:text="scissors"
+            android:textColor="#423934 " />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtx"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginBottom="454dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/plyrtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginBottom="492dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="Player"
+        android:textColor="#E9C46A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txty"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="454dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="178dp"
+        android:layout_marginBottom="359dp"
+        android:gravity="center"
+        android:text=":"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtaiscore"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginBottom="360dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtplayerscore"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginBottom="360dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/idk"
+        android:layout_width="187dp"
+        android:layout_height="94dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="493dp"
+        android:src="@drawable/giphybear" />
+
+</RelativeLayout>
